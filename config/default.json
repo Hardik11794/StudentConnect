@@ -1,0 +1,4 @@
+{
+    "mongoURI": "mongodb+srv://admin:hpp11794@cluster0.o8huj.mongodb.net/StudentConnect?retryWrites=true&w=majority",
+   "jwtSecret":"mysecrettoken"
+}
