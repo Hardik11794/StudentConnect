@@ -1,6 +1,6 @@
 const express = require('express');
 const router = express.Router();
-const { check, validationResult } = require('express-validator');;
+const { check, validationResult } = require('express-validator');
 const User = require('../../models/User');
 const gravatar = require('gravatar');
 const bcrypt = require('bcryptjs')
@@ -56,7 +56,7 @@ router.post('/', [
 
         jwt.sign(
             payload,
-            config.get('jwtToken'), { expiresIn: 360000 }, (err, token) => {
+            config.get('jwtSecret'), { expiresIn: 36000000 }, (err, token) => {
                 if (err) throw err;
                 res.json({ token });
             });
