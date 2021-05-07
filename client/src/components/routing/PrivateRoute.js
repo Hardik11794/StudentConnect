@@ -29,3 +29,11 @@ const mapStateToProps = (state) => ({
 });
 
 export default connect(mapStateToProps)(PrivateRoute);
+
+// const PrivateRoute = props => {
+//     if (!props.auth.isAuthenticated && !props.auth.loading) {
+//         return <Redirect to='/login' />;
+//     } else {
+//         return <Route exact path={props.path} component={props.component} />
+//     }
+// }
