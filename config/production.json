@@ -1,0 +1,6 @@
+{
+  "mongoURI": "mongodb+srv://admin:hpp11794@cluster0.o8huj.mongodb.net/StudentConnect?retryWrites=true&w=majority",
+  "jwtSecret": "mysecrettoken",
+  "githubClientId": "611bcd0a85563c5db361",
+  "githubSecret": "66bcd5a94225cee753f433746ee4437555bdc036"
+}
